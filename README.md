@@ -1,4 +1,4 @@
-# 🤚 Gesture Launcher
+# Gesture Launcher
 
 **Control your computer with hand gestures!** A Python application that uses computer vision to detect hand gestures and launch applications via webcam.
 
@@ -7,17 +7,17 @@
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10+-orange.svg)
 ![Platform](https://img.shields.io/badge/platform-linux-lightgrey.svg)
 
-## ✨ Features
+## Features
 
-- 🎯 **Real-time hand detection** using Google's MediaPipe
-- 👆 **Finger counting** (0-5 fingers) for gesture recognition
-- 🚀 **Customizable app launching** via JSON configuration
-- ⏱️ **5-second cooldown** to prevent accidental launches
-- 📹 **Visual feedback** with hand landmarks overlay
-- 🎨 **Clean interface** showing gesture status and available commands
-- ⚙️ **Easy configuration** - edit gestures without touching code
+- **Real-time hand detection** using Google's MediaPipe
+- **Finger counting** (0-5 fingers) for gesture recognition
+- **Customizable app launching** via JSON configuration
+- **5-second cooldown** to prevent accidental launches
+- **Visual feedback** with hand landmarks overlay
+- **Clean interface** showing gesture status and available commands
+- **Easy configuration** - edit gestures without touching code
 
-## 🎮 Default Gestures
+## Default Gestures
 
 | Gesture | Fingers | Action |
 |---------|---------|--------|
@@ -28,7 +28,7 @@
 | 🖖 Four | 4 | Open Text Editor |
 | ✋ Open Hand | 5 | Open Thunderbird |
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - **Arch Linux** (or similar)
@@ -108,7 +108,7 @@ You can use any shell command, including:
 5. **Cooldown Check**: 5-second timer prevents rapid re-execution
 6. **Command Execution**: Shell command runs in background via subprocess
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 goreallymental/
@@ -119,7 +119,7 @@ goreallymental/
 └── .gitignore           # Git ignore rules
 ```
 
-## 🔧 Technical Details
+## Technical Details
 
 - **Hand Detection**: MediaPipe Hands solution with 21 landmark points
 - **Finger Detection**: Compares fingertip Y-coordinates with joint positions
@@ -127,7 +127,7 @@ goreallymental/
 - **Performance**: 30+ FPS processing with minimal CPU usage
 - **Cooldown**: `time.monotonic()` for precise timing
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Camera Issues
 - Ensure webcam is not used by another application
@@ -161,7 +161,7 @@ goreallymental/
 - [ ] Gesture sequence support
 - [ ] Mobile companion app
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
